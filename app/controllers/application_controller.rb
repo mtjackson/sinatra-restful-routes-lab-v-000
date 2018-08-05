@@ -19,7 +19,9 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipes/:id/delete' do
-    
+
   end
+
+  get '/recipes/:id/edit'
 
 end
