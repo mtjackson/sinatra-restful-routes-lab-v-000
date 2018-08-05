@@ -41,7 +41,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipes' do
-    
+    @recipe
   end
 
 end
