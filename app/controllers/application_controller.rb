@@ -39,6 +39,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/recipes/new' do
+    binding.pry
     erb :new
   end
 
