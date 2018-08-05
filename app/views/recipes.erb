@@ -6,7 +6,9 @@
 </head>
 <body>
   <% @recipe.each do |recipe| %>
-  <p>Name: <%= recipe.name %></p>
+  <h2>Name: <%= recipe.name %></h2>
+  <p>Cook Time: <%= recipe.cook_time %></p>
+  <p>Ingredients: <%= recipe.ingredients %></p>
 
 </body>
 
