@@ -18,6 +18,8 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
 
-  post ''/recipes/:id/delete'
+  post '/recipes/:id/delete' do
+    
+  end
 
 end
